@@ -13,7 +13,7 @@ func (rh *RequestHandler) ServeHTTP(w http.ResponseWriter, r *http.Request) {
 }
 
 func main() {
-	fmt.Println("Simple HTTP Server is running")
+	fmt.Println("Simple No Mux HTTP Server is running")
 
 	handler := &RequestHandler{}
 
